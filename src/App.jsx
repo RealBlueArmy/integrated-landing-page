@@ -224,7 +224,7 @@ const App = () => {
                     href="https://smp.bluearmy.uk"
                     className="inline-flex items-center rounded-full border border-neutral-700 px-3 py-1 text-[11px] font-medium text-neutral-200 hover:border-emerald-400/70 hover:text-emerald-200 transition"
                   >
-                    View map / info
+                    View map
                   </a>
                 </div>
               </div>
