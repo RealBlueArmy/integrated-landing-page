@@ -77,9 +77,13 @@ const App = () => {
         <div className="relative overflow-hidden">
           <div className="relative mx-auto flex max-w-5xl flex-col gap-10 px-4 py-12 sm:px-6 sm:py-16 md:flex-row md:items-center md:py-24">
             <section className="flex-1 space-y-6">
-              
+              <p className="sm:hidden inline-flex items-center gap-2 rounded-full border border-neutral-700/80 bg-black/40 px-3 py-1 text-[11px] font-medium text-neutral-300 shadow-xs">
+                <span className={`inline-flex h-1.5 w-1.5 rounded-full ${statusColor}`} />
+                Server status ― {statusLabel}
+              </p>
+ 
+                <h1 className="text-balance text-3xl font-semibold tracking-tight text-neutral-50 sm:text-4xl md:text-5xl">
 
-              <h1 className="text-balance text-3xl font-semibold tracking-tight text-neutral-50 sm:text-4xl md:text-5xl">
                 <span className="bg-gradient-to-r from-emerald-300 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
                   Vanilla+
                 </span>{' '}
