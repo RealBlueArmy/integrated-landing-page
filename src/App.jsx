@@ -217,23 +217,7 @@ const App = () => {
                     </>
                   )}
                  </div>
- 
-                 <div className="mt-4 rounded-md border border-neutral-800/80 bg-neutral-950/60 p-3 text-xs">
-                   <p className="text-[11px] font-semibold text-neutral-300">Upcoming event</p>
-                   <p className="mt-1 text-[11px] leading-relaxed text-neutral-400">
-                     Seasonal Integrated SMP event. Join the community, follow the rules, and compete for small ingame rewards.
-                   </p>
-                   <div className="mt-3 flex items-center justify-between gap-3">
-                     <p className="text-[11px] text-neutral-500">More details on the event page.</p>
-                     <a
-                       href="/event"
-                       className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-3 py-1 text-[10px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
-                     >
-                       More info
-                     </a>
-                   </div>
-                 </div>
- 
+
                  <div className="mt-4 flex items-center justify-between gap-3 text-[11px] text-neutral-500">
                    <p>Refreshes automatically every 30 seconds.</p>
                    <a
@@ -248,9 +232,30 @@ const App = () => {
             </aside>
           </div>
         </div>
-      </main>
+        </main>
+ 
+        <section className="border-t border-neutral-900/80 bg-black/40">
+          <div className="mx-auto flex max-w-5xl px-6 py-6">
+            <div className="w-full rounded-lg border border-neutral-800/80 bg-neutral-950/70 p-4 text-xs">
+              <p className="text-[11px] font-semibold text-neutral-300">Upcoming event</p>
+              <p className="mt-1 text-[11px] leading-relaxed text-neutral-400">
+                Seasonal Integrated SMP event. Join the community, follow the rules, and compete for small in-game rewards.
+              </p>
+              <div className="mt-3 flex items-center justify-between gap-3">
+                <p className="text-[11px] text-neutral-500">More details on the event page.</p>
+                <a
+                  href="/event"
+                  className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-3 py-1 text-[10px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
+                >
+                  More info
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+        <footer className="relative z-10 border-t border-neutral-900/80 bg-black/60">
 
-      <footer className="relative z-10 border-t border-neutral-900/80 bg-black/60">
         <div className="mx-auto flex max-w-5xl px-6 py-4 text-[11px] text-neutral-500 items-center justify-center">
           <p>Integrated SMP ― Vanilla+ Survival Experience</p>
         </div>
