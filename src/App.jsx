@@ -235,14 +235,14 @@ const App = () => {
         </main>
  
         <section className="border-t border-neutral-900/80 bg-black/40">
-          <div className="mx-auto flex max-w-5xl px-6 py-6">
-            <div className="w-full rounded-lg border border-neutral-800/80 bg-neutral-950/70 p-4 text-xs">
-              <p className="text-[11px] font-semibold text-neutral-300">Upcoming event</p>
+          <div className="mx-auto max-w-5xl px-6 py-6">
+            <div className="rounded-lg border border-neutral-800 bg-black/60 p-5 shadow-xs text-xs">
+              <p className="text-[11px] font-semibold text-neutral-300 uppercase">Current event</p>
               <p className="mt-1 text-[11px] leading-relaxed text-neutral-400">
-                Seasonal Integrated SMP event. Join the community, follow the rules, and compete for small in-game rewards.
+                Ongoing building competition on Integrated SMP. Pick a spot, build something cool, and compete for 100 Robux.
               </p>
               <div className="mt-3 flex items-center justify-between gap-3">
-                <p className="text-[11px] text-neutral-500">More details on the event page.</p>
+                <p className="text-[11px] text-neutral-500">More details and rules on the event page.</p>
                 <a
                   href="/event"
                   className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-3 py-1 text-[10px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
