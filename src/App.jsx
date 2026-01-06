@@ -236,7 +236,8 @@ const App = () => {
                    <div className="mt-3 flex items-center justify-between gap-3">
                      <p className="text-[11px] text-neutral-500">More details and rules on the event page.</p>
                      <a
-                       href="/event"
+                        href="/event.html"
+
                        className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-3 py-1 text-[10px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
                      >
                        More info
