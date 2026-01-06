@@ -33,7 +33,10 @@ const Event = () => {
               Integrated SMP ― Current event
             </p>
             <h1 className="text-3xl font-semibold tracking-tight text-neutral-50 sm:text-4xl">
-              Building competition ― 100 Robux prize
+              <span className="bg-gradient-to-r from-emerald-300 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+                Building competition
+              </span>{' '}
+              ― 100 Robux prize
             </h1>
             <p className="max-w-2xl text-sm text-neutral-400 sm:text-base">
               Pick a spot on the server, build something you are proud of, and submit it for judging. Best overall build
