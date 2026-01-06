@@ -235,10 +235,13 @@ const App = () => {
                    </p>
                    <div className="mt-3 flex items-center justify-between gap-3">
                      <p className="text-[11px] text-neutral-500">More details and rules on the event page.</p>
-                      <a
-                        href="/event.html"
-                        className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-4 py-1 min-w-[96px] text-[10px] sm:text-[11px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
-                      >
+                    <a
+                      href="http://integrated.bluearmy.uk:4321"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center justify-center rounded-full border border-neutral-700 px-4 py-1 min-w-[92px] text-[10px] sm:text-[11px] font-medium text-neutral-200 hover:border-emerald-400/70 hover:text-emerald-200 transition"
+                    >
+
                         More info
                       </a>
 
