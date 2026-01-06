@@ -47,7 +47,7 @@ const Event = () => {
               <ul className="mt-2 space-y-1 text-[11px] text-neutral-400">
                 <li><span className="text-neutral-300">Type:</span> Building competition</li>
                 <li><span className="text-neutral-300">Prize:</span> 100 Robux</li>
-                <li><span className="text-neutral-300">Theme:</span> Anything that fits Integrated SMP vibe</li>
+                <li><span className="text-neutral-300">Theme:</span> Unified ― anything symbolic during WW2, like Russian statues</li>
                 <li><span className="text-neutral-300">Server:</span> integrated.bluearmy.uk</li>
               </ul>
             </div>
