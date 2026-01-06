@@ -222,7 +222,7 @@ const App = () => {
                   <p>Refreshes automatically every 30 seconds.</p>
                   <a
                     href="https://smp.bluearmy.uk"
-                    className="inline-flex items-center rounded-full border border-neutral-700 px-3 py-1 text-[10px] sm:text-[11px] font-medium text-neutral-200 hover:border-emerald-400/70 hover:text-emerald-200 transition"
+                    className="inline-flex items-center justify-center rounded-full border border-neutral-700 px-4 py-1 min-w-[92px] text-[10px] sm:text-[11px] font-medium text-neutral-200 hover:border-emerald-400/70 hover:text-emerald-200 transition"
                   >
                     View map
                   </a>
