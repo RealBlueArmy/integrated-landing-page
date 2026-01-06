@@ -220,7 +220,8 @@ const App = () => {
                  <div className="mt-4 flex items-center justify-between gap-3 text-[11px] text-neutral-500">
                    <p>Refreshes automatically every 30 seconds.</p>
                    <a
-                     href="https://smp.bluearmy.uk"
+                      href="http://integrated.bluearmy.uk:4321"
+
                      className="inline-flex items-center justify-center rounded-full border border-neutral-700 px-4 py-1 min-w-[92px] text-[10px] sm:text-[11px] font-medium text-neutral-200 hover:border-emerald-400/70 hover:text-emerald-200 transition"
                    >
                      View map
