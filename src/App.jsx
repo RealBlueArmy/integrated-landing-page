@@ -51,8 +51,8 @@ const App = () => {
       : 'bg-neutral-500'
 
   return (
-    <div className="min-h-screen bg-background text-neutral-50 flex flex-col">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(45,212,191,0.16),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(52,211,153,0.18),_transparent_85%)]" />
+    <div className="relative min-h-screen bg-background text-neutral-50 flex flex-col overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(45,212,191,0.18),_transparent_65%),radial-gradient(circle_at_bottom,_rgba(52,211,153,0.22),_transparent_95%)]" />
 
       <header className="relative z-10 border-b border-neutral-800/80 backdrop-blur bg-black/40">
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
@@ -77,7 +77,7 @@ const App = () => {
 
       <main className="flex-1">
         <div className="relative overflow-hidden">
-          <div className="relative mx-auto flex max-w-5xl flex-col gap-10 px-6 py-16 md:flex-row md:items-center md:py-24">
+          <div className="relative mx-auto flex max-w-5xl flex-col gap-10 px-4 py-12 sm:px-6 sm:py-16 md:flex-row md:items-center md:py-24">
             <section className="flex-1 space-y-6">
               <p className="inline-flex items-center gap-2 rounded-full border border-neutral-700/80 bg-black/40 px-3 py-1 text-[11px] font-medium text-neutral-300 shadow-xs">
                 <span className={`inline-flex h-1.5 w-1.5 rounded-full ${statusColor}`} />
@@ -123,7 +123,8 @@ const App = () => {
                </div>
 
 
-              <div className="mt-6 grid gap-4 text-xs text-neutral-400 sm:grid-cols-3">
+               <div className="mt-6 grid gap-4 text-xs text-neutral-400 sm:grid-cols-3 sm:text-[11px]">
+
                 <div className="rounded-lg border border-neutral-800/80 bg-black/40 p-4 shadow-xs">
                   <p className="text-[11px] font-semibold text-neutral-300">Gameplay</p>
                   <p className="mt-1 text-[11px] leading-relaxed text-neutral-400">
@@ -146,7 +147,8 @@ const App = () => {
               </div>
             </section>
 
-            <aside className="mt-4 flex-1 md:mt-0">
+             <aside className="mt-2 flex-1 md:mt-0">
+
               <div className="rounded-lg border border-neutral-800 bg-black/60 p-5 shadow-xs">
                 <div className="flex items-center justify-between gap-3">
                   <div>
