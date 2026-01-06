@@ -228,33 +228,30 @@ const App = () => {
                    </a>
                  </div>
  
-               </div>
-             </aside>
-           </div>
-         </div>
-       </main>
+                 <div className="mt-4 rounded-md border border-neutral-800/80 bg-neutral-950/60 p-3 text-xs">
+                   <p className="text-[11px] font-semibold text-neutral-300">Current event</p>
+                   <p className="mt-1 text-[11px] leading-relaxed text-neutral-400">
+                     Ongoing building competition on Integrated SMP. Pick a spot, build something cool, and compete for 100 Robux.
+                   </p>
+                   <div className="mt-3 flex items-center justify-between gap-3">
+                     <p className="text-[11px] text-neutral-500">More details and rules on the event page.</p>
+                     <a
+                       href="/event"
+                       className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-3 py-1 text-[10px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
+                     >
+                       More info
+                     </a>
+                   </div>
+                 </div>
  
-       <section className="border-t border-neutral-900/80 bg-black/40">
-         <div className="mx-auto max-w-5xl px-6 py-6">
-           <div className="rounded-lg border border-neutral-800 bg-black/60 p-5 shadow-xs text-xs">
-             <p className="text-[11px] font-semibold text-neutral-300 uppercase">Current event</p>
-             <p className="mt-1 text-[11px] leading-relaxed text-neutral-400">
-               Ongoing building competition on Integrated SMP. Pick a spot, build something cool, and compete for 100 Robux.
-             </p>
-             <div className="mt-3 flex items-center justify-between gap-3">
-               <p className="text-[11px] text-neutral-500">More details and rules on the event page.</p>
-               <a
-                 href="/event"
-                 className="inline-flex items-center justify-center rounded-full border border-emerald-400/70 bg-emerald-500/10 px-3 py-1 text-[10px] font-medium text-emerald-200 hover:bg-emerald-500/20 transition"
-               >
-                 More info
-               </a>
-             </div>
-           </div>
-         </div>
-       </section>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </main>
  
-       <footer className="relative z-10 border-t border-neutral-900/80 bg-black/60">
+        <footer className="relative z-10 border-t border-neutral-900/80 bg-black/60">
+
 
 
         <div className="mx-auto flex max-w-5xl px-6 py-4 text-[11px] text-neutral-500 items-center justify-center">
