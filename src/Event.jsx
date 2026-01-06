@@ -68,7 +68,7 @@ const Event = () => {
               <p className="text-[11px] font-semibold text-neutral-200">Rules</p>
               <ul className="mt-2 space-y-1 text-[11px] text-neutral-400">
                 <li>No griefing or messing with other players builds.</li>
-                <li>Build must be made on Integrated SMP during the event period.</li>
+                <li>Builds must be made on the building server during the event period.</li>
                 <li>Keep it reasonably family friendly.</li>
                 <li>Working in small teams is allowed, but prize is 100 Robux total.</li>
               </ul>
